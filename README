@@ -1,0 +1,19 @@
+### point1
+- link : https://leetcode.com/problems/two-sum/submissions/1704620796/
+
+### point2
+- test_case_nok_case: Test_case.csv
+
+### Point 3
+- **Path**: `point_3`
+- **Automation Tool**: Robot Framework  
+- **Description**:  
+  This section implements an end-to-end (E2E) automated test of the system payment validation process.  
+  The selected test scenarios are derived from Point 2 and include the following Test Case IDs:
+  - `TC_NC_01`
+  - `TC_NC_02`
+  - `TC_NC_05`
+  - `TC_NC_12`
+  - `TC_NC_15`
+  - `TC_NC_18`
+  - `TC_NC_26`
