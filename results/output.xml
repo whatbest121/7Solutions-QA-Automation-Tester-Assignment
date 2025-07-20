@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.11.9 on darwin)" generated="2025-07-20T00:12:55.755586" rpa="false" schemaversion="5">
+<suite id="s1" name="7Solutions-QA-Automation-Tester-Assignment" source="/Users/macbook/test/7Solutions-QA-Automation-Tester-Assignment">
+<suite id="s1-s1" name="Point 3" source="/Users/macbook/test/7Solutions-QA-Automation-Tester-Assignment/point_3">
+<suite id="s1-s1-s1" name="Tests" source="/Users/macbook/test/7Solutions-QA-Automation-Tester-Assignment/point_3/tests">
+<suite id="s1-s1-s1-s1" name="Login Tests" source="/Users/macbook/test/7Solutions-QA-Automation-Tester-Assignment/point_3/tests/login_tests.robot">
+<test id="s1-s1-s1-s1-t1" name="Test Open Web" line="10">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-07-20T00:12:55.923321" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/macbook/test/7Solutions-QA-Automation-Tester-Assignment/results/browser/traces/temp/bcdaa7bc-dac9-4370-a878-15d24548e901"}</msg>
+<msg time="2025-07-20T00:12:55.943985" level="INFO">Starting Browser process /Users/macbook/.pyenv/versions/3.11.9/lib/python3.11/site-packages/Browser/wrapper/index.js using at 127.0.0.1:63320</msg>
+<msg time="2025-07-20T00:12:57.947093" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/macbook/test/7Solutions-QA-Automation-Tester-Assignment/results/browser/traces/temp/bcdaa7bc-dac9-4370-a878-15d24548e901"}</msg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-07-20T00:12:55.922810" elapsed="2.024722"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-07-20T00:12:59.115725" level="INFO">Successfully initialized new page object and opened url: https://xn--m3ca1athe9asc7b2b6iqe.com</msg>
+<msg time="2025-07-20T00:12:59.115909" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://xn--m3ca1athe9asc7b2b6iqe.com</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-07-20T00:12:57.948060" elapsed="1.167992"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-07-20T00:13:09.118407" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-07-20T00:12:59.116489" elapsed="10.002540"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-07-20T00:13:09.304971" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-07-20T00:13:09.120173" elapsed="0.184988"/>
+</kw>
+<msg time="2025-07-20T00:13:09.321906" level="INFO">Switching context to context=0f069cc6-c93c-4842-beac-01e09dce0c50 in CURRENT</msg>
+<msg time="2025-07-20T00:13:09.326908" level="INFO">Successfully changed active context: context=0f069cc6-c93c-4842-beac-01e09dce0c50</msg>
+<msg time="2025-07-20T00:13:09.354713" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-07-20T00:12:55.922047" elapsed="13.383507"/>
+</test>
+<status status="PASS" start="2025-07-20T00:12:55.769811" elapsed="13.585608"/>
+</suite>
+<status status="PASS" start="2025-07-20T00:12:55.768932" elapsed="13.589135"/>
+</suite>
+<status status="PASS" start="2025-07-20T00:12:55.767978" elapsed="13.590633"/>
+</suite>
+<status status="PASS" start="2025-07-20T00:12:55.757488" elapsed="13.601829"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="7Solutions-QA-Automation-Tester-Assignment" id="s1" pass="1" fail="0" skip="0">7Solutions-QA-Automation-Tester-Assignment</stat>
+<stat name="Point 3" id="s1-s1" pass="1" fail="0" skip="0">7Solutions-QA-Automation-Tester-Assignment.Point 3</stat>
+<stat name="Tests" id="s1-s1-s1" pass="1" fail="0" skip="0">7Solutions-QA-Automation-Tester-Assignment.Point 3.Tests</stat>
+<stat name="Login Tests" id="s1-s1-s1-s1" pass="1" fail="0" skip="0">7Solutions-QA-Automation-Tester-Assignment.Point 3.Tests.Login Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

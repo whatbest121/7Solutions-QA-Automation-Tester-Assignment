@@ -1,0 +1,221 @@
+Test Case ID,Modoule,Case type,Test Scenario,Precondition,Steps,Test Data,Priority,Expected Result,Actual Result,Status,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_01,Profile,Functional,"verify when click ""?????????""",Profile page,"1. Go to profile page
+2. Click ""?????????""",,High,Go to nok-cash page,(??????????????????),TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Functional
+TC_NC_02,Add nok cash,Functional,Veryfy nok cash dashborad,nok cash page,"""1. Go to profile page
+2. Click """"?????????""""""
+3. Open nok cash page",Member ID : P12379510,Midium,Noke card id matches Member ID,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_03,Add nok cash,Functional,Verify the exchange rate display (1 Nok Cash = 1 THB),User is on the nok cash page,"""1. Go to profile page
+2. Click """"?????????""""""
+3. Open nok cash page",,Low,Display shows '1.00 Nok Cash = 1.00 THB',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_04,Add nok cash,Functional,Verify behavior when inputting an amount below the minimum,User is on the nok cash page,"""1. Go to profile page
+2. Click """"?????????""""""
+3. Open nok cash page
+4. Enter '50' into the input field",input : 50,High,System shows an alert that the minimum is 105 Nok Cash and disable payment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_05,Add nok cash,Functional,Verify input payment valid,User is on the nok cash page,"""1. Go to profile page
+2. Click """"?????????""""""
+3. Open nok cash page
+4. Enter '305' into the input field",input : 305,High,Input field shows '305' and total value updates to 305 THB and enable payment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_06,Add nok cash,Functional,"Verify '+105' preset selection 
+",User is on the nok cash page,"1. Go to profile page
+2. Click ""?????????""""
+3. Open nok cash page
+4. Click '+105' button",,Midium,Input field shows '105' and total value updates to 105 THB and enable button payment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_07,Add nok cash,Functional,"Verify '+210' preset selection 
+",User is on the nok cash page,"1. Go to profile page
+2. Click ""?????????""""
+3. Open nok cash page
+4. Click '+210' button",,Midium,Input field shows '210' and total value updates to 210 THB and enable button payment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_08,Add nok cash,Functional,Verify '+315' preset selection ,User is on the nok cash page,"1. Go to profile page
+2. Click ""?????????""""
+3. Open nok cash page
+4. Click '+315' button",,Midium,Input field shows '315' and total value updates to 315 THB and enable payment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_09,Add nok cash,Functional,Verify '+420' preset selection,User is on the nok cash page,"1. Go to profile page
+2. Click ""?????????""""
+3. Open nok cash page
+4. Click '+420' button",,Midium,Input field shows '420' and total value updates to 420 THB and enable button payment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_10,Add nok cash,Functional,Veryfy when select more perset,User is on the nok cash page,"1. Go to profile page
+2. Click ""?????????""""",select 105 and 210,Midium,Input field shows '305 and total value updates to 305 THB and enable button payment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_11,Add nok cash,Functional,Verify Existing nok case new user,User is on the nok cash page,"1. Go to profile page
+2. Click ""?????????""""
+3. Open nok cash page",,Midium,System shows Existing nok case  = 0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_12,Add nok cash,Functional,Verify when click button payment ,User is on the nok cash page,"1. Go to profile page
+2. Click ""?????????""""
+3. Open nok cash page
+4. Enter '105' into the input field
+5. Click button payment",input : 305,High,"go to payment step and Display title shows ""????????""",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_13,Add nok cash,Functional,Verify when click button cancle,User is on the nok cash page,"1. Go to profile page
+2. Click ""?????????""""
+3. Open nok cash page
+4. Click button cancle",,Midium,go to page home,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_14,Payment,Functional,"Verify the display message ""????????????? 15 ???? ????????????????????????????""",User is on the payment page,"1. Go to profile page
+2. Click ""?????????""""
+3. Open nok cash page
+4. Enter '105' into the input field
+5. Click button payment
+6.Open payment",input: 305,Midium,"Display shows ""????????????? 15 ???? ????????????????????????????""",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_15,Payment,Functional,Verify Total payment,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""",input 305,Midium,"Display shows ""??????????? 305 ???""",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_16,Payment,Functional,Verify the display Bank Account,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""","Bank Account:  ????????
+???. ?????????????
+ 1541825831",Midium,"Display shows ""???. ????????????? 1541825831 """,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_17,Payment,Functional,Verify button copy Bank Account,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button copy",,Midium,valur copy:  1541825832,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_18,Payment,Functional,Verify the Attach button to select the photo slip,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""","only select image file extensions such as .png, .jpg",Midium,Show a sample popup for attaching a slip.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_19,Payment,Functional,Verify the Attach button to select a non-image slip,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""","Select only the file extension, not the image, such as .txt, .pdf.",Midium,Those files cannot be selected.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_20,Payment,Functional,Verify the button sample popup for attaching a slip.,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""
+8. select image file 
+9. Click button ""??????????""","only select image file extensions such as .png, .jpg",Midium,show image for select image,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_21,Payment,Functional,Verify the button Edit Image file image  ,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""
+8. select image file 
+9. Click button ""??????????""
+10. Click button edit iamge","only select image file extensions such as .png, .jpg",Midium,show image for select image,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_22,Payment,Functional,Verify the button Edit Image file non-image  ,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""
+8. select image file 
+9. Click button ""??????????""
+10. Click button edit iamge","Select only the file extension, not the image, such as .txt, .pdf.",Midium,Those files cannot be selected.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_23,Payment,Functional,Verify the button cancle image,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""
+8. select image file 
+9. Click button ""??????????""
+10. Click button cancle image","only select image file extensions such as .png, .jpg",Midium,Remove image from selection,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_24,Payment,Functional,Verify the display payment expiration time,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""
+8. select image file 
+9. Click button ""??????????""",input: 305,Midium,"Display shows ""????????????????? xx:xx:xx """,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_25,Payment,Functional,Verify the payment expiration time after expiration,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""
+8. select image file 
+9. Click button ""??????????""",input: 305,Midium,"System shows an alert that the message ""????????????????????? ????????????????????????????""",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_26,Payment,Functional,Verify the payment expiration time after expiration button okay,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""
+8. select image file 
+9. Click button ""??????????""",input: 305,Midium,go to home page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_27,Payment,Functional,Verify the button Confirm payment non-slip payment ,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""
+8. select image file 
+9. Click button ""??????????""
+10. Click button confirm payment","input: 305
+Selected an incorrect slip",Midium,System shows an alert warning that the Unable to read QR code,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_28,Payment,Functional,Verify the button cancle in  button Confirm payment non-slip payment ,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""
+8. select image file 
+9. Click button ""??????????""
+10. Click button confirm payment
+11. Click button cancle ","input: 305
+Selected an incorrect slip",Midium,Return to the previous press,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_29,Payment,Functional,Verify the button Send  slip in  button Confirm payment non-slip payment ,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""
+8. select image file 
+9. Click button ""??????????""
+10. Click button confirm payment
+11. Click button Send slip ","input: 305
+Selected an incorrect slip",Midium,go to confirm-payment page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_30,Payment,Functional,Verify the payment confirmation button on the correct payment slip,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Click button ""???????""
+8. select image file 
+9. Click button ""??????????""
+10. Click button confirm payment","input: 305
+Select the correct slip",Midium,go to confirm-payment page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_31,Payment,Functional,Verify the Order Summary collapsible  details open,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Open collapsible detail ",input: 305,Midium,"show detail payment
+1. ????????? 305 ???
+2. ???? 305 ???
+3. ?????????? 305 ???
+4. ??????? 305 ???",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TC_NC_32,Payment,Functional,Verify the Order Summary collapsible  details close,User is on the payment page,"""1. Go to profile page
+2. Click """"?????????""""""""
+3. Open nok cash page
+4. Enter '305' into the input field
+5. Click button payment
+6.Open payment""
+7. Open collapsible detail ",input: 305,Midium,show detail payment summarized to the topic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

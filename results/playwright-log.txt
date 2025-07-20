@@ -1,0 +1,34 @@
+{"level":30,"time":"2025-07-19T17:12:56.213Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Listening on 127.0.0.1:63320"}
+(node:39982) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-07-19T17:12:57.281Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-07-19T17:12:57.945Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
+{"level":30,"time":"2025-07-19T17:12:57.946Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-07-19T17:12:57.946Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-07-19T17:12:57.949Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-07-19T17:12:57.950Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-19T17:12:57.975Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Changed active context"}
+{"level":30,"time":"2025-07-19T17:12:58.310Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-07-19T17:12:58.310Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2025-07-19T17:12:59.114Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-07-19T17:13:09.127Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-07-19T17:13:09.128Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","Take screenshot with options: ":{"path":"/Users/macbook/test/7Solutions-QA-Automation-Tester-Assignment/results/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-07-19T17:13:09.304Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-07-19T17:13:09.307Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-19T17:13:09.313Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-19T17:13:09.315Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-19T17:13:09.317Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-19T17:13:09.320Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-19T17:13:09.321Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-19T17:13:09.322Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-19T17:13:09.323Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-19T17:13:09.324Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Changed active context"}
+{"level":30,"time":"2025-07-19T17:13:09.324Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Changing current active page: page=93132ea3-4c0b-4808-90e8-d616d5f1e2e7"}
+{"level":30,"time":"2025-07-19T17:13:09.324Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2025-07-19T17:13:09.327Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-07-19T17:13:09.340Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Removed page=0b8d8502-0288-4824-9574-a183c8a21ce4 from context=0f069cc6-c93c-4842-beac-01e09dce0c50 page stack"}
+{"level":30,"time":"2025-07-19T17:13:09.354Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-07-19T17:13:09.357Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-19T17:13:09.357Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-19T17:13:10.089Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-19T17:13:10.200Z","pid":39982,"hostname":"Macbooks-MacBook-Pro.local","msg":"End of node method closeAllBrowsers"}
