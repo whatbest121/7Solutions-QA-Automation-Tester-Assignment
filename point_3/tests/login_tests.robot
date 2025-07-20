@@ -6,6 +6,7 @@ Resource    ../resources/keywords.robot
     
 *** Test Cases ***
 E2E test system payment valid
+    ##ยังขาด oauth line 
     Verify Dathbord TC_NC_01_and_TC_NC_02
     Verify Input payment valid TC_NC_05
     Verify Button payment TC_NC_12
